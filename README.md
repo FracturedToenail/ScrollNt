@@ -4,7 +4,7 @@
 ScrollNt is a browser extension that enhances your browsing experience by distracting you from watching YouTube too much by having a tab pop up whenever it detects that you are. This guide will help you download and install it.
 
 ## Downloading the Extension
-1. Visit the [GitHub repository](https://github.com/FracturedToenail/ScrollNt) of [ScrollNt].
+1. Visit the [GitHub repository](https://github.com/FracturedToenail/ScrollNt) of ScrollNt.
 2. Navigate to the 'Releases' section on the repository page.
 3. Locate the latest release and download the appropriate file. 
 
