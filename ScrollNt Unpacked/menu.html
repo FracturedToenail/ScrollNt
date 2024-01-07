@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <style>
+            body {
+                width: 200px;
+                font-family: Arial, sans-serif;
+            }
+
+            a {
+                display: block;
+                margin: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="128.png" alt="The logo">
+        <h1>Menu</h1>
+        <!-- <a href="options.html" target="_blank">Open full options</a> -->
+        <button id="options-link">Open full options</button>
+        <p>
+            Snooze for:
+            <input type="number" id="snooze-duration" min="1" value="5"> minutes
+            <button id="snooze-button">Snooze</button>
+        </p>
+        <h2>Quick options</h2>
+        <p>
+            Popup text:
+            <input type="text" id="popup-text">
+        </p>
+        <p>
+            Popup color:
+            <input type="color" id="popup-color">
+        </p>
+        <button id="save-button">Save changes</button>
+        <script src="menu.js"></script>
+    </body>
+</html>

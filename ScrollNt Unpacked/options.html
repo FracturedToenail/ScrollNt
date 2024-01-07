@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Options</title>
+        <style>
+            body {
+                width: 300px;
+                font-family: Arial, sans-serif;
+            }
+
+            a {
+                display: block;
+                margin: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Options</h1>
+        <p>
+            Background color:
+            <input type="color" id="background-color">
+        </p>
+
+        <p>
+    Text Color: <input type="color" id="textColor">
+</p>
+        <p>
+            <input type="checkbox" id="disable-popup"> Disable tab popup
+        </p>
+        <p>
+            <input type="checkbox" id="interval-popup"> Show popup every
+            <input type="number" id="interval-duration" min="1" value="5" disabled> minutes
+        </p>
+        <p>
+            <input type="checkbox" id="enable-tracking"> Enable time tracking
+        </p>
+        <div id="tracking-info" style="display: none;">
+            <p>Total YouTube time: <span id="total-time"></span></p>
+            <p>YouTube time with popup on: <span id="time-with-popup-on"></span></p>
+            <p>YouTube time with popup off: <span id="time-with-popup-off"></span></p>
+        </div>
+        <p>
+            <input type="checkbox" id="use-minutes"> Display time in minutes
+        </p>
+        <button id="save-button">Save changes</button>
+        <script src="options.js"></script>
+    </body>
+</html>
