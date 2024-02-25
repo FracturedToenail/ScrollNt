@@ -1,4 +1,4 @@
-You may want to watch the video at [[https://youtu.be/JmGPME2tnHc?si=8fVvW42NdHvqL3fd]] to gain a further understanding of it.
+You may want to watch the [video](https://youtu.be/JmGPME2tnHc?si=8fVvW42NdHvqL3fd) to gain a further understanding of it.
 
 # Installation Guide for ScrollNt
 
